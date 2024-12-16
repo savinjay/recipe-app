@@ -1,0 +1,337 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: rgb(47, 79, 79);
+    box-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+
+.Link {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 900px;
+}
+
+.navbar a {
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+
+.AboutBg {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5cc9672bca525b25ad911c0f/1582640369024-H2WO6DEFDX8JGZCLTNE4/Tastequest%2BH%2526S.jpg?format=2500w");
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    text-align: center;
+    display: flex;
+}
+
+.AboutContent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    margin-inline-start: 150px;
+    margin-inline-end: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+}
+.homeBg{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5cc9672bca525b25ad911c0f/1578584070354-6IT8X08507P3I5HKRE60/Products.jpg?format=2500w");
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: repeat;
+    /* background-position: center; */
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.cardcontents{
+    background-color: #000;
+    justify-content: center;
+   }
+
+.itemslist {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Add some space between the items */
+    margin-left: auto; /* Center align */
+    margin-right: auto; /* Center align */
+    /* margin-top: 10px; */
+  }
+  
+  .recipe-card {
+    width: 400px;
+    /* border: 2px solid #e0e0e0; */
+    border-radius: 0px;
+    overflow: hidden;
+    /* box-shadow: 0 4px 8px rgb(255, 255, 255); */
+    transition: transform 0.3s ease-in-out;
+    font-family: 'Arial, sans-serif';
+    /* background-color: #fafafa; */
+    margin: 20px; /* Add margin for spacing between cards */
+    /* box-shadow: 15px 15px 60px rgb(163, 159, 159), inset -15px -15pc 60px rgb(0, 0, 0);
+  */}
+  
+  .recipe-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .recipe-image {
+    width: 100%; /* Ensure image takes full width of the card */
+    height: auto;
+  }
+  
+  .recipe-details {
+    padding: 20px;
+    /* background-color: #fafafa; */
+  }
+  
+  .recipe-title {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+    color: #28a46b;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .recipe-info {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    color: #fffcfc;
+  }
+  
+  .recipe-info .icon {
+    margin-right: 10px;
+    font-size: 1.2em;
+    color: #ff6f61;
+  }
+  
+  .difficulty {
+    margin-top: 10px;
+  }
+  
+    ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+   .selected ul {
+    text-align: start;
+    /* margin-left: -70px; */
+    color: rgb(8, 8, 59);
+  }
+  
+  .selected {
+    background-color: #46474718;
+    backdrop-filter: blur(40px);
+    width: 1200px;
+    height: auto;
+    margin-left: 130px;
+    margin-right: 200px;
+    align-content: center;
+    /* height: auto; */
+   /* position: sticky; */
+    top: 20px; /* Adjust top position as needed */
+    /* background-color: #000000; */
+    padding: 30px;
+    /* box-shadow: 15px 15px 60px rgb(163, 159, 159), inset -15px -15px 60px rgb(210, 210, 210); */
+      }
+  
+  .selected img {
+    width: 30%; /* Ensure image takes full width of the container */
+    height: 30%;
+    border: 2px solid black;
+    border-radius: 0px;
+
+  }
+  
+  .selected h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #28a46b;
+    text-transform: capitalize;
+  }
+  
+  .selected #level {
+    font-size: 20px;
+    
+    margin-top: 10px;
+    margin-left: 730px;
+  }
+  .selected .stime
+  {
+    font-size: 20px;
+    
+    margin-top: 10px;
+    margin-left: -100px;
+    color: red;
+  } 
+  .selected .time {
+    color: brown;
+    font-size: 20px;
+  }
+  
+  .selected ul li {
+    /* list-style: ; */
+    /* list-style-type: circle; */
+    display: flex;
+    margin: 20px;
+    font-size: 20px;
+    color: rgb(255, 244, 244);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+  }
+  
+  .selected ul {
+    padding-left: 0;
+    background-color: #ffffff34;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  
+  .selected ul li span {
+    color: #28a46b;
+    text-transform: capitalize;
+  }
+  
+   .instruction {
+    /* margin-top: 30px; */
+    height: auto;
+    margin-left: 50px;
+    /* background-color: #fafafa5f; */
+    
+    width: 60%;
+    text-align: start;
+    align-items: start;
+    border-radius: 20px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+  .ingredients
+  {
+    border-radius: 20px;
+    /* margin-top: 30px; */
+    height: auto;
+    padding: 10px;
+    /* padding-top: 10px; */
+    margin-left: 1px;
+    /* background-color: #ffffff56; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    text-align: start;
+    align-items: start;
+    width: 50%;
+  }
+  
+  .ingredients h1, .instruction h1 {
+    color: #28a46b;
+    font-size: 20px;
+  margin-left: 30px ;
+   
+  }
+  
+  .ingredients hr, .instruction hr {
+   
+    color: #ffffff;
+  
+  }
+  
+  #indlist {
+    padding-left: 0;
+  }
+  .insec
+  {
+    display: flex;
+  }
+  #indlist li {
+    font-size: 15px;
+    margin-top: 5px;
+    line-height: 1;
+    margin-left: 100px;
+  }
+  
+  .itempage {
+    display: flex;
+    justify-content: space-between; /* Adjust space between selected and itemslist */
+    padding: 30px;
+    gap: 20px; /* Add space between selected and itemslist */
+  }
+  /* From Uiverse.io by LightAndy1 */ 
+.group {
+  display: flex;
+  line-height: 2px;
+  align-items: center;
+  position: relative;
+  max-width: 500px;
+  margin-left: 950px;
+}
+
+.input {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 45px;
+  margin-top: 10px;
+  padding-left: 2.5rem;
+ box-shadow: 0 0 0 1.5px #2b2c37;
+  border-radius: 5px;
+  background-color: #000000;
+  outline: none;
+  color: #ffffff;
+  transition: all 0.25s cubic-bezier(0.19, 1, 0.22, 1);
+  cursor: text;
+  z-index: 0;
+}
+
+.input::placeholder {
+  color: #ffffff;
+}
+
+.input:hover {
+  box-shadow: 0 0 0 2.5px #ffffff, 0px 0px 25px -15px #000000;
+}
+
+.input:active {
+  transform: scale(0.95);
+}
+
+.input:focus {
+  box-shadow: 0 0 0 2.5px #ffffff;
+}
+
+.search-icon {
+  position: absolute;
+  top: -0.5rem;
+  left: 1rem;
+  fill: #ff0f02;
+  width: 1rem;
+  height: 5rem;
+  pointer-events: none;
+  z-index: 1;
+}
